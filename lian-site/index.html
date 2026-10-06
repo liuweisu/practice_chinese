@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>练 — Chinese practice</title>
+<meta name="description" content="Six ways to practise Chinese actively: build sentences from tiles, match characters, choose the correct grammar, trace strokes, read graded stories and summarise paragraphs. HSK 1–6, free, works offline.">
+<meta name="theme-color" content="#22223B">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://USERNAME.github.io/REPO/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="练 — Chinese practice">
+<meta property="og:description" content="Build sentences, match characters, fix grammar, trace strokes, read stories. HSK 1–6.">
+<meta property="og:url" content="https://USERNAME.github.io/REPO/">
+<meta name="twitter:card" content="summary">
+
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2322223B%22/%3E%3Crect x=%2218%22 y=%2234%22 width=%2228%22 height=%2228%22 rx=%226%22 fill=%22%23B8F3FF%22/%3E%3Crect x=%2254%22 y=%2234%22 width=%2228%22 height=%2228%22 rx=%226%22 fill=%22%238ABCAD%22/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<noscript><p style="padding:24px">This practice app needs JavaScript enabled.</p></noscript>
+
+<header class="bar">
+  <button class="brand" id="home" aria-label="Back to the exercise list">
+    <span class="z">练</span><span class="n">practice</span>
+  </button>
+  <span class="bar-sp"></span>
+  <nav class="lvl" id="lvl" aria-label="HSK level"></nav>
+  <div class="tally" id="tally" aria-live="polite" hidden>
+    <span class="ok" id="tOk">0</span><span class="sl">/</span><span class="no" id="tNo">0</span>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<script src="data/sentences.js"></script>
+<script src="data/pairs.js"></script>
+<script src="data/grammar.js"></script>
+<script src="data/stories.js"></script>
+<script src="data/summaries.js"></script>
+<script src="data/talk.js"></script>
+<script src="data/strokechars.js"></script>
+<script src="vendor/hanzi-writer.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
